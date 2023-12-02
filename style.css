@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(42, 42, 42);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#textbox {
+    display: flex;
+    padding-left: 2rem;
+    width: 32rem;
+    height: 3rem;
+    top: 26rem;
+}
+
+#botao {
+    padding: 1rem;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#botao, #textbox, li  {
+    background-color: #202124;
+    color: #ffffff;
+    border: 0.15rem solid #474a4e;
+    border-radius: 10rem;
+}
